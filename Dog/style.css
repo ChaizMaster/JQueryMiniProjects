@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body>div{
+    margin: 3em 2em 0 2em;
+}
+.upper{
+    height: 200px;
+    width:80vw;
+    background-color: azure;
+}
+.breedList{
+    position: relative;
+    top:3em;
+    left:8em;
+    font-size: 1.5rem;
+    height: 50px;
+    padding-left: 8px;
+    width: 250px;
+    background: whitesmoke;
+    border-radius: 2em;
+}
+.buttonstyle{
+    height: 40px;
+    width:120px;
+    border-radius: 2em;
+    border:none;
+    font-size: 1.2rem;
+}
+.get-image{
+    position: relative;
+    top: 4em;
+    left:25em;
+}
+.displayImage{
+    position: relative;
+    left:-12em;
+    height:280px;
+    width:450px;
+    outline: none;
+}
+.displayImage img{
+    outline: none;
+    height: 280px;
+    width:450px;
+}
+.buttonstyle{
+    position: relative;
+    left:20em;
+    color:whitesmoke;
+    background: darkslateblue;
+    bottom: 10em;
+}
